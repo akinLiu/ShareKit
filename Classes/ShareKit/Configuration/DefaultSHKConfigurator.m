@@ -128,17 +128,17 @@
 // Tencent Weibo - http://open.t.qq.com/
 - (NSString*)tencentWeiboConsumerKey
 {
-    return @"";
+  return @"100639048";
 }
 
 - (NSString*)tencentWeiboConsumerSecret
 {
-    return @"";
+  return @"6815b205327f0394462c572fa676ffae";
 }
 
 - (NSString*)tencentWeiboCallbackUrl
 {
-    return @"";
+    return @"null";
 }
 
 
@@ -416,16 +416,16 @@
  These values are used to define the default favorite sharers appearing on ShareKit's action sheet.
  */
 - (NSArray*)defaultFavoriteURLSharers {
-    return [NSArray arrayWithObjects:@"SHKTwitter",@"SHKFacebook",@"SHKSinaWeibo", @"SHKMail",@"SHKTextMessage", nil];
+    return [NSArray arrayWithObjects:@"SHKSinaWeibo",@"SHKTencentWeibo",@"SHKRenRen", @"SHKMail",@"SHKTextMessage", nil];
 }
 - (NSArray*)defaultFavoriteImageSharers {
-    return [NSArray arrayWithObjects:@"SHKTwitter",@"SHKFacebook",@"SHKSinaWeibo", @"SHKMail",@"SHKTextMessage", nil];
+    return [NSArray arrayWithObjects:@"SHKSinaWeibo",@"SHKTencentWeibo",@"SHKRenRen", @"SHKMail",@"SHKTextMessage", nil];
 }
 - (NSArray*)defaultFavoriteTextSharers {
-    return [NSArray arrayWithObjects:@"SHKTwitter",@"SHKFacebook",@"SHKSinaWeibo", @"SHKMail",@"SHKTextMessage", nil];
+    return [NSArray arrayWithObjects:@"SHKSinaWeibo",@"SHKTencentWeibo",@"SHKRenRen", @"SHKMail",@"SHKTextMessage", nil];
 }
 - (NSArray*)defaultFavoriteFileSharers {
-    return [NSArray arrayWithObjects:@"SHKTwitter",@"SHKFacebook",@"SHKSinaWeibo", @"SHKMail",@"SHKTextMessage", nil];
+    return [NSArray arrayWithObjects:@"SHKSinaWeibo",@"SHKTencentWeibo",@"SHKRenRen", @"SHKMail",@"SHKTextMessage", nil];
 }
 
 //by default, user can see last used sharer on top of the SHKActionSheet. You can switch this off here, so that user is always presented the same sharers for each SHKShareType.

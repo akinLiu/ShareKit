@@ -108,17 +108,17 @@
 // Tencent Weibo
 - (NSString*)tencentWeiboConsumerKey
 {
-    return @"801065801";
+  return @"100639048";
 }
 
 - (NSString*)tencentWeiboConsumerSecret
 {
-    return @"f33650da32c7b1f335311d0c1bd9a6f2";
+  return @"6815b205327f0394462c572fa676ffae";
 }
 
 - (NSString*)tencentWeiboCallbackUrl
 {
-    return @"null";
+    return @"";
 }
 
 
