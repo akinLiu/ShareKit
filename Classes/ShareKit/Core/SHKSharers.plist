@@ -3,12 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>actions</key>
-	<array>
-		<string>SHKPhotoAlbum</string>
-		<string>SHKCopy</string>
-		<string>SHKMail</string>
-		<string>SHKTextMessage</string>
-	</array>
+	<array/>
 	<key>services</key>
 	<array>
 		<string>SHKSinaWeibo</string>

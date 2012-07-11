@@ -407,7 +407,7 @@
 }
 // SHKActionSheet settings
 - (NSNumber*)showActionSheetMoreButton {
-	return [NSNumber numberWithBool:true];// Setting this to true will show More... button in SHKActionSheet, setting to false will leave the button out.
+	return [NSNumber numberWithBool:NO];// Setting this to true will show More... button in SHKActionSheet, setting to false will leave the button out.
 }
 
 /*
@@ -416,16 +416,16 @@
  These values are used to define the default favorite sharers appearing on ShareKit's action sheet.
  */
 - (NSArray*)defaultFavoriteURLSharers {
-    return [NSArray arrayWithObjects:@"SHKSinaWeibo",@"SHKTencentWeibo",@"SHKRenRen", @"SHKMail",@"SHKTextMessage", nil];
+    return [NSArray arrayWithObjects:@"SHKSinaWeibo",@"SHKTencentWeibo", nil];
 }
 - (NSArray*)defaultFavoriteImageSharers {
-    return [NSArray arrayWithObjects:@"SHKSinaWeibo",@"SHKTencentWeibo",@"SHKRenRen", @"SHKMail",@"SHKTextMessage", nil];
+    return [NSArray arrayWithObjects:@"SHKSinaWeibo",@"SHKTencentWeibo", nil];
 }
 - (NSArray*)defaultFavoriteTextSharers {
-    return [NSArray arrayWithObjects:@"SHKSinaWeibo",@"SHKTencentWeibo",@"SHKRenRen", @"SHKMail",@"SHKTextMessage", nil];
+    return [NSArray arrayWithObjects:@"SHKSinaWeibo",@"SHKTencentWeibo", nil];
 }
 - (NSArray*)defaultFavoriteFileSharers {
-    return [NSArray arrayWithObjects:@"SHKSinaWeibo",@"SHKTencentWeibo",@"SHKRenRen", @"SHKMail",@"SHKTextMessage", nil];
+    return [NSArray arrayWithObjects:@"SHKSinaWeibo",@"SHKTencentWeibo", nil];
 }
 
 //by default, user can see last used sharer on top of the SHKActionSheet. You can switch this off here, so that user is always presented the same sharers for each SHKShareType.
