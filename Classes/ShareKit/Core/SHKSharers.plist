@@ -12,9 +12,7 @@
 	<key>services</key>
 	<array>
 		<string>SHKSinaWeibo</string>
-		<string>SHKNetEaseWeibo</string>
 		<string>SHKTencentWeibo</string>
-		<string>SHKRenRen</string>
 	</array>
 </dict>
 </plist>
